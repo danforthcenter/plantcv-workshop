@@ -26,14 +26,15 @@ After login, click the Use default config to dismiss the Panel window.
 ## Start the Jupyter Notebook service
 
 1. Using the same terminal window, start jupyterhub to initiate the web service. This has to be done as an administrator, so we will use the sudo command to run the command with administrator privileges: `sudo jupyterhub --no-ssl &`
-2. Enter your password once prompted.
+2. Enter your password if prompted.
 3. JupyterHub is now running, so minimize the terminal program, then start Google Chrome by double-clicking the desktop icon (click okay to dismiss the dialog box).
-4. In the URL bar, enter: `localhost:8000`
+4. In the URL bar, enter: `127.0.0.1:8000`
 5. In the JuptyerHub login screen, enter your CyVerse username and password.
 6. Click on the `plantcv-workshop` folder that was cloned from GitHub.
 
 ## Seed phenotyping with PlantCV
 
 In JupyterHub, click on the Jupyter notebook `plantcv-seed-phenotyping.ipynb` to analyze images of seed. Steps 2, 5, 6, 8, and 12 will possibly need to be adjusted for each image analyzed.
+
 
 
