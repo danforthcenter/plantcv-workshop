@@ -36,5 +36,13 @@ After login, click the Use default config to dismiss the Panel window.
 
 In JupyterHub, click on the Jupyter notebook `plantcv-seed-phenotyping.ipynb` to analyze images of seed. Steps 2, 5, 6, 8, and 12 will possibly need to be adjusted for each image analyzed.
 
+## Combine results for each genotype into one file
 
+1. Open a new terminal window.
+2. Change directories to the workshop directory: `cd plantcv-workshop`
+3. Create a new combined table by initializing it with the header from one of the output files, for example: `head -1 Cs002_plantcv_results.txt > plantcv_seed_phenotypes.table`
+4. Append all of your result files (excluding the headers) onto the new file, for example: `cat *.txt | grep -v HEADER >> plantcv_seed_phenotypes.table`
 
+## Analyze the results using R
+
+In JupyterHub, click on the Jupyter notebook `seed-phenotype-statistics.ipynb` to analyze the data from PlantCV in R.
