@@ -1,2 +1,0 @@
-/home/user/plantcv/plantcv-pipeline.py -d /home/user/data/sorghum_images/ -p /home/user/plantcv-workshop/vis_sv_z1_L1_e82.py -s sorghum.sqlite3 -i /home/user/plantcv-output/ -f imgtype_camera_frame_zoom_lifter_gain_exposure_id -M imgtype:VIS,camera:SV,frame:0,zoom:z1 -t jpg -T 1 -w
-
